@@ -1,0 +1,11 @@
+{
+  "name": "mindmine-website",
+  "version": "1.0.0",
+  "description": "Official mindmine Oy website",
+  "main": "index.js",
+  "repository": "git@github.com:Mindmine/website.git",
+  "scripts": {
+  },
+  "author": "Andreas Herd",
+  "license": "MIT"
+}
