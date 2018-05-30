@@ -12,9 +12,13 @@ export class App extends Component {
         return (
             <div class="fx">
                 <div class="bg">
-                    <div class="cog"/>
+                    <div class="cog-bg"/>
                     <div class="rocket"/>
                     <div id="particles-js"/>
+                    <div class="cog cog-1"/>
+                    <div class="cog cog-2"/>
+                    <div class="cog cog-3"/>
+                    <div class="cog cog-4"/>
                 </div>
                 <div class="content">
                     <div id="logo"/>
@@ -24,7 +28,7 @@ export class App extends Component {
                        <br/><br/>
                        Mindmine consists of 4 seasoned IT veterans that combine over 75 years
                        of work experience. Although we are framework and language agnostic our
-                       expertise circles mostly around Java / Scala and NodeJs in the backend
+                       expertise circles mostly around Java, Scala, NodeJs in the backend
                        and React in TypeScript in the front.
                     </p>
                 </div>
