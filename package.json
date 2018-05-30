@@ -9,7 +9,7 @@
     "clean": "rimraf docs",
     "mkdocs": "mkdir docs",
     "copy": "COPY src\\json\\particles.json docs\\particles.json /Y",
-    "package": "parcel build src/html/index.html -o index.html -d docs --no-source-maps --no-cache",
+    "package": "parcel build src/html/index.html -o index.html -d docs --no-source-maps --no-cache --public-url=https://mindmine.github.io/website/",
     "build": "npm-run-all clean mkdocs copy package"
   },
   "author": "Andreas Herd",
