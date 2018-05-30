@@ -147,7 +147,7 @@ body {
         height: 100%;
         opacity: .5;
 
-        @media all and (max-width:400px) {
+        @media only screen and (max-width:480px) {
             display: none;
         }
 
@@ -158,7 +158,7 @@ body {
         align-items: center;
         justify-content: center;
 
-        @media all and (max-width:400px) {
+        @media only screen and (max-width:480px) {
             align-items: flex-start;
         }
     }
@@ -170,14 +170,6 @@ body {
         flex: 1;
         padding: 20px;
 
-        @media all and (max-width:400px) {
-            max-width: calc(100% - 20px);
-
-            p {
-                line-height: 1.25;
-            }
-        }
-
         p {
             opacity: 0;
             animation: fade-in 3s forwards;
@@ -187,11 +179,17 @@ body {
             line-height: 1.75;
             text-align: justify;
             color: #e4eeff;
+        }
 
-            @media all and (max-width:400px) {
-                font-size: 20px;
+        @media only screen and (max-width:480px) {
+            max-width: calc(100% - 20px);
+
+            p {
+                line-height: 1.5;
+                font-size: 16px;
             }
         }
+
     }
 
     #logo {
