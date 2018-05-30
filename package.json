@@ -7,8 +7,10 @@
   "scripts": {
     "start": "parcel src/html/index.html",
     "clean": "rimraf docs",
+    "mkdocs": "mkdir docs",
+    "copy": "COPY src\\json\\particles.json docs\\particles.json /Y",
     "package": "parcel build src/html/index.html -o index.html -d docs --no-source-maps --no-cache",
-    "build": "npm-run-all clean package"
+    "build": "npm-run-all clean mkdocs copy package"
   },
   "author": "Andreas Herd",
   "license": "MIT",
