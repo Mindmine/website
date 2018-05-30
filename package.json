@@ -5,16 +5,25 @@
   "main": "index.js",
   "repository": "git@github.com:Mindmine/website.git",
   "scripts": {
+    "start": "parcel src/html/index.html"
   },
   "author": "Andreas Herd",
   "license": "MIT",
   "devDependencies": {
+    "cssnano": "^3.10.0",
     "postcss": "6.0.22",
     "postcss-cssnext": "3.1.0",
     "postcss-custom-properties": "7.0.0",
     "postcss-import": "11.1.0",
     "postcss-mixins": "6.2.0",
     "postcss-nested": "3.0.0",
-    "postcss-parcel-import": "0.0.2"
+    "postcss-parcel-import": "0.0.2",
+    "stylelint": "^9.2.1",
+    "tslib": "^1.9.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "preact": "^8.2.9"
   }
 }

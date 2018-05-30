@@ -1,0 +1,23 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "traceResolution": true,
+        "outDir": "./dist",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "jsx": "react",
+        "jsxFactory": "h"
+    },
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}
