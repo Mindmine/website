@@ -9,8 +9,9 @@
     "clean": "rimraf docs",
     "mkdocs": "mkdir docs",
     "copy": "COPY src\\json\\particles.json docs\\particles.json /Y",
-    "package": "parcel build src/html/index.html -o index.html -d docs --no-source-maps --no-cache --public-url=https://mindmine.github.io/website/",
-    "build": "npm-run-all clean mkdocs copy package"
+    "package": "parcel build src/html/index.html -o index.html -d docs --no-source-maps --public-url=/website/",
+    "add": "git add . & git commit -m \"update docs\"",
+    "build": "npm-run-all clean mkdocs copy package add"
   },
   "author": "Andreas Herd",
   "license": "MIT",
