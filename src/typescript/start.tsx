@@ -29,7 +29,7 @@ export class App extends Component {
                        Mindmine consists of 4 seasoned IT veterans that combine over 75 years
                        of work experience. Although we are framework and language agnostic our
                        expertise circles mostly around Java, Scala, NodeJs in the backend
-                       and React in TypeScript in the front.
+                       and React plus TypeScript in the front.
                     </p>
                 </div>
                 <ul class="footer">
