@@ -17,3 +17,5 @@ tmp
 /.*cache
 /node_modules
 npm-debug.log.*
+dist/*
+!dist/*.json

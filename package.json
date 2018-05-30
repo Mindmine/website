@@ -24,6 +24,7 @@
     "typescript": "^2.8.3"
   },
   "dependencies": {
+    "particles.js": "^2.0.0",
     "preact": "^8.2.9"
   }
 }
