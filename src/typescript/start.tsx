@@ -2,9 +2,11 @@ import {h, Component, render} from 'preact'
 import '@mdi/font/css/materialdesignicons.css'
 import 'particles.js'
 
-window['particlesJS'].load('particles-js', 'particles.json', function() {
-    console.log('callback - particles.js config loaded')
-})
+setTimeout(() => {
+    window['particlesJS'].load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded')
+    })
+}, 2000)
 
 export class App extends Component {
 
