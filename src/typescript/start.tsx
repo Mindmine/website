@@ -35,7 +35,7 @@ export class App extends Component {
                     </p>
                 </div>
                 <ul class="footer">
-                    <li><a href="tel:+358405686030"><i class="mdi mdi-phone"/>+358 40 568 6030</a></li>
+                    <li><a href="tel:+358504033332"><i class="mdi mdi-phone"/>+358 50 403 3332</a></li>
                     <li><a href="mailto:info@mindmine.fi"><i class="mdi mdi-email"/>info@mindmine.fi</a></li>
                     <li><i class="mdi mdi-briefcase"/>Y-Tunnus: 2258370-2</li>
                     <li><i class="mdi mdi-copyright"/>2012-2018 Helsinki, Mindmine Oy</li>
